@@ -1,0 +1,33 @@
+@import "./base/base.scss";
+
+/* Material for drawer */
+@import "@material/list/mdc-list";
+@import "@material/drawer/mdc-drawer";
+@import "@material/top-app-bar/mdc-top-app-bar";
+
+
+
+body {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .mdc-drawer-app-content {
+    flex: auto;
+    overflow: auto;
+    position: relative;
+  }
+  
+  .main-content {
+    overflow: auto;
+    height: 100%;
+  }
+  
+  .app-bar {
+    position: absolute;
+  }
+  
+  
+  .mdc-top-app-bar {
+    z-index: 7;
+  }

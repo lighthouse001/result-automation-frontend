@@ -1,0 +1,26 @@
+body {
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+  background: $mdc-theme-background !important;
+  margin: 0px;
+  padding: 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar {
+  width: 0.5em;
+  height: 0.5em;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #777;
+  outline: 1px solid slategrey;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #666;
+}
