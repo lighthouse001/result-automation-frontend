@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 // import drawer, top-app-bar
 import { MDCDrawer } from "@material/drawer";
@@ -6,9 +6,8 @@ import { MDCTopAppBar } from "@material/top-app-bar";
 import { MDCRipple } from "@material/ripple";
 import { MDCList } from "@material/list";
 
-
 class Drawer extends Component {
-  state = {}
+  state = {};
 
   componentDidMount() {
     const drawer = MDCDrawer.attachTo(document.querySelector(".mdc-drawer"));
@@ -24,14 +23,18 @@ class Drawer extends Component {
     );
   }
 
-
   render() {
     return (
       <div className="drawer-wrapper">
         <header class="mdc-top-app-bar app-bar" id="app-bar">
           <div class="mdc-top-app-bar__row">
             <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
-              <a href="#" class="demo-menu material-icons mdc-top-app-bar__navigation-icon">menu</a>
+              <a
+                href="#"
+                class="demo-menu material-icons mdc-top-app-bar__navigation-icon"
+              >
+                menu
+              </a>
               <span class="mdc-top-app-bar__title">Dismissible Drawer</span>
             </section>
           </div>
@@ -39,24 +42,53 @@ class Drawer extends Component {
         <aside class="mdc-drawer mdc-drawer--dismissible mdc-top-app-bar--fixed-adjust">
           <div class="mdc-drawer__content">
             <div class="mdc-list">
-              <a class="mdc-list-item mdc-list-item--activated" href="#" aria-current="page">
-                <i class="material-icons mdc-list-item__graphic" aria-hidden="true">dashboard</i>
+              <a
+                class="mdc-list-item mdc-list-item--activated"
+                href="#"
+                aria-current="page"
+              >
+                <i
+                  class="material-icons mdc-list-item__graphic"
+                  aria-hidden="true"
+                >
+                  dashboard
+                </i>
                 <span class="mdc-list-item__text">Dashboard</span>
               </a>
               <a class="mdc-list-item" href="#">
-                <i class="material-icons mdc-list-item__graphic" aria-hidden="true">videocam</i>
+                <i
+                  class="material-icons mdc-list-item__graphic"
+                  aria-hidden="true"
+                >
+                  videocam
+                </i>
                 <span class="mdc-list-item__text">Item1</span>
               </a>
               <a class="mdc-list-item" href="#">
-                <i class="material-icons mdc-list-item__graphic" aria-hidden="true">drafts</i>
+                <i
+                  class="material-icons mdc-list-item__graphic"
+                  aria-hidden="true"
+                >
+                  drafts
+                </i>
                 <span class="mdc-list-item__text">Item2</span>
               </a>
               <a class="mdc-list-item" href="#">
-                <i class="material-icons mdc-list-item__graphic" aria-hidden="true">drafts</i>
+                <i
+                  class="material-icons mdc-list-item__graphic"
+                  aria-hidden="true"
+                >
+                  drafts
+                </i>
                 <span class="mdc-list-item__text">Item3</span>
               </a>
               <a class="mdc-list-item" href="#">
-                <i class="material-icons mdc-list-item__graphic" aria-hidden="true">drafts</i>
+                <i
+                  class="material-icons mdc-list-item__graphic"
+                  aria-hidden="true"
+                >
+                  drafts
+                </i>
                 <span class="mdc-list-item__text">Item4</span>
               </a>
             </div>
@@ -65,7 +97,7 @@ class Drawer extends Component {
 
         <div class="mdc-drawer-app-content mdc-top-app-bar--fixed-adjust">
           <main class="main-content" id="main-content">
-            App Content
+            Welcome to Result Automation Process
           </main>
         </div>
       </div>
