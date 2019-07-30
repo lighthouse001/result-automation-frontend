@@ -5,7 +5,16 @@
 @import "@material/drawer/mdc-drawer";
 @import "@material/top-app-bar/mdc-top-app-bar";
 
+/* Material for Login page  */
+@import "@material/floating-label/mdc-floating-label";
+@import "@material/textfield/mdc-text-field";
+@import "@material/button/mdc-button";
+
+/* Material for Text  */
+@import "@material/textfield/helper-text/mdc-text-field-helper-text";
+
 @import "./components/app_content";
+@import "./components/loginSignup";
 
 body {
   display: flex;

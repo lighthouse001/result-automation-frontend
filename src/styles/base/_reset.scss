@@ -1,16 +1,29 @@
 body {
-  font-family: "roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   background: $mdc-theme-background !important;
   margin: 0px;
   padding: 0px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  min-height: 100vh;
 }
+
+#root {
+  width: 100%;
+}
+
+//ScrollBar styling
 
 ::-webkit-scrollbar {
   width: 0.5em;
   height: 0.5em;
+}
+
+body::-webkit-scrollbar {
+  width: 0.7em;
+  height: 0.7em;
 }
 
 ::-webkit-scrollbar-track {
